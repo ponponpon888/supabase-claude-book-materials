@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.14",
+    "zenn-cli": "0.5.13"
+  },
+  "private": true,
+  "scripts": {
+    "check:db": "node review-rls.mjs",
+    "check:preview": "node check-preview.mjs",
+    "preview": "zenn preview",
+    "export:sql": "node tools/export-sql.mjs"
+  }
+}

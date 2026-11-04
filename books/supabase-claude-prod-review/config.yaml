@@ -1,0 +1,6 @@
+title: "Supabase × Claude Code 本番運用の教科書"
+summary: "本人だけのメモを題材に、権限・AIへの作業依頼・変更・復旧の判断を学ぶ無料β版9章。演習と解答例付き。DB単体38項目確認済み。実際の認証・HTTP経路等は未検証。"
+topics: ["supabase", "claudecode", "postgresql"]
+published: false
+price: 0
+chapters: ["00-chapter", "01-chapter", "02-chapter", "03-chapter", "04-chapter", "05-chapter", "06-chapter", "07-chapter", "08-chapter"]

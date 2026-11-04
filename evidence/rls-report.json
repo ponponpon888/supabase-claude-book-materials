@@ -1,0 +1,165 @@
+{
+  "recordedAt": "2026-11-03T20:05:56.964Z",
+  "node": "v24.13.0",
+  "pglite": "0.5.14",
+  "postgres": "PostgreSQL 18.6 (PGlite 0.5.14) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.5 (1db513782be24469589d7cb8a1f1834e9a33f271), 32-bit",
+  "sqlSha256": "391c71fac8e8bcb37af1156a7c81d8a7cf2b21c916adc8b2ebbd66b37977b9e6",
+  "scope": "Local PostgreSQL engine in WebAssembly; test doubles for auth.users/auth.uid; no HTTP, JWT signature validation, GoTrue or hosted Supabase tested",
+  "total": 38,
+  "passed": 38,
+  "failed": 0,
+  "results": [
+    {
+      "name": "SQL from manuscript executes; table RLS enabled",
+      "status": "PASS"
+    },
+    {
+      "name": "Four operation-specific policies installed",
+      "status": "PASS"
+    },
+    {
+      "name": "Test client roles have no superuser or bypassrls privilege",
+      "status": "PASS"
+    },
+    {
+      "name": "A: own INSERT returns database defaults and persists",
+      "status": "PASS"
+    },
+    {
+      "name": "B: own INSERT returns database defaults and persists",
+      "status": "PASS"
+    },
+    {
+      "name": "anon: SELECT denied and both rows intact",
+      "status": "PASS"
+    },
+    {
+      "name": "anon: INSERT denied and both rows intact",
+      "status": "PASS"
+    },
+    {
+      "name": "anon: UPDATE denied and both rows intact",
+      "status": "PASS"
+    },
+    {
+      "name": "anon: DELETE denied and both rows intact",
+      "status": "PASS"
+    },
+    {
+      "name": "A: list returns only own row",
+      "status": "PASS"
+    },
+    {
+      "name": "A: foreign row by ID returns zero rows",
+      "status": "PASS"
+    },
+    {
+      "name": "A: foreign UPDATE returns zero rows and preserves the row",
+      "status": "PASS"
+    },
+    {
+      "name": "A: foreign DELETE returns zero rows and preserves the row",
+      "status": "PASS"
+    },
+    {
+      "name": "A: spoofed owner INSERT denied and dataset unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "A: own UPDATE returns changed value and persists",
+      "status": "PASS"
+    },
+    {
+      "name": "B: list returns only own row",
+      "status": "PASS"
+    },
+    {
+      "name": "B: foreign row by ID returns zero rows",
+      "status": "PASS"
+    },
+    {
+      "name": "B: foreign UPDATE returns zero rows and preserves the row",
+      "status": "PASS"
+    },
+    {
+      "name": "B: foreign DELETE returns zero rows and preserves the row",
+      "status": "PASS"
+    },
+    {
+      "name": "B: spoofed owner INSERT denied and dataset unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "B: own UPDATE returns changed value and persists",
+      "status": "PASS"
+    },
+    {
+      "name": "owner reassignment: column privilege rejects and dataset unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "ID overwrite: column privilege rejects and dataset unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "creation time overwrite: column privilege rejects and dataset unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "client-chosen ID on INSERT: column privilege rejects and dataset unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "client-chosen creation time on INSERT: column privilege rejects and dataset unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "empty summary: constraint rejects",
+      "status": "PASS"
+    },
+    {
+      "name": "overlong summary: constraint rejects",
+      "status": "PASS"
+    },
+    {
+      "name": "null summary: constraint rejects",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid status: constraint rejects",
+      "status": "PASS"
+    },
+    {
+      "name": "Missing subject: no readable rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Missing subject: INSERT denied",
+      "status": "PASS"
+    },
+    {
+      "name": "Negative control: disabled RLS is detected by foreign-row assertion",
+      "status": "PASS"
+    },
+    {
+      "name": "Negative control: extra permissive SELECT policy is detected",
+      "status": "PASS"
+    },
+    {
+      "name": "Negative control: weakened INSERT check is detected",
+      "status": "PASS"
+    },
+    {
+      "name": "UPDATE WITH CHECK still rejects ownership change if column grant widens",
+      "status": "PASS"
+    },
+    {
+      "name": "A: own DELETE returns row then no row remains",
+      "status": "PASS"
+    },
+    {
+      "name": "B: own DELETE returns row then no row remains",
+      "status": "PASS"
+    }
+  ]
+}

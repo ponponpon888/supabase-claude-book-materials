@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-11-03T20:08:09.991Z",
+  "zennCli": "0.5.13",
+  "chapterCount": 9,
+  "chapters": [
+    {
+      "slug": "00-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第0章 この本の使い方――運用できる状態とは何か",
+      "htmlLength": 5881,
+      "tocEntries": 6,
+      "tables": 2,
+      "answerDisclosure": true
+    },
+    {
+      "slug": "01-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第1章 「動いた」から「公開できる」へ",
+      "htmlLength": 5698,
+      "tocEntries": 5,
+      "tables": 2,
+      "answerDisclosure": true
+    },
+    {
+      "slug": "02-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第2章 環境と鍵を分ける",
+      "htmlLength": 6235,
+      "tocEntries": 5,
+      "tables": 3,
+      "answerDisclosure": true
+    },
+    {
+      "slug": "03-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第3章 権限表からRLSを設計する",
+      "htmlLength": 19129,
+      "tocEntries": 7,
+      "tables": 2,
+      "answerDisclosure": true
+    },
+    {
+      "slug": "04-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第4章 他人のデータに触れないことを試験する",
+      "htmlLength": 18467,
+      "tocEntries": 9,
+      "tables": 3,
+      "answerDisclosure": true
+    },
+    {
+      "slug": "05-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第5章 Claude Codeに任せる範囲を決める",
+      "htmlLength": 7032,
+      "tocEntries": 6,
+      "tables": 1,
+      "answerDisclosure": true
+    },
+    {
+      "slug": "06-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第6章 データベースを安全に変更する",
+      "htmlLength": 6078,
+      "tocEntries": 5,
+      "tables": 2,
+      "answerDisclosure": true
+    },
+    {
+      "slug": "07-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第7章 障害を見つけ、復旧を確かめる",
+      "htmlLength": 5961,
+      "tocEntries": 5,
+      "tables": 1,
+      "answerDisclosure": true
+    },
+    {
+      "slug": "08-chapter",
+      "status": 200,
+      "free": true,
+      "title": "第8章 公開日に使う運用チェックリスト",
+      "htmlLength": 7338,
+      "tocEntries": 5,
+      "tables": 1,
+      "answerDisclosure": true
+    }
+  ],
+  "articles": [
+    {
+      "slug": "supabase-rls-other-user",
+      "status": 200,
+      "published": false,
+      "htmlLength": 8487,
+      "answerDisclosure": true
+    }
+  ],
+  "errors": [],
+  "visualReview": "not completed",
+  "status": "PASS"
+}
